@@ -1,0 +1,13 @@
+package hojjoon.hojjoon_spring;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class HojjoonSpringApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
