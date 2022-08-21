@@ -2,9 +2,12 @@ package hojjoon.hojjoon_spring.repository;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import hojjoon.hojjoon_spring.domain.Member;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>();
